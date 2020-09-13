@@ -84,7 +84,7 @@ class _LoginState extends State<Login> {
                               email: bloc.getEmail, password: bloc.getPassword);
 
                           if ((connectivityResult == ConnectivityResult.mobile)||(connectivityResult == ConnectivityResult.wifi)) {
-                            if(bloc.getEmail=='admin@gmail.com' && bloc.getPassword == '123456'){
+                            if(bloc.getEmail=='admin@gmail.com'){
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
